@@ -51,7 +51,6 @@ npm run dev   # http://localhost:3000
 - `npm run typecheck` — проверка типов
 - `npm run test` / `test:ui` / `test:coverage` — Vitest
 
-
 ## Данные
 
 Все данные лежат в `public/data/*.json` и отдаются статикой. Для правок UI/текстов достаточно изменить эти файлы, пересборка не требуется.
