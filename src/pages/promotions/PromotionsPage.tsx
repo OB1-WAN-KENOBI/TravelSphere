@@ -3,6 +3,7 @@ import { Button } from '@/shared/ui/Button';
 import { Tag } from '@/shared/ui/Tag';
 import { useTranslation } from '@/shared/lib/useTranslation';
 import { usePriceFormatter } from '@/shared/lib/formatPrice';
+import { getAssetUrl } from '@/shared/lib/getAssetUrl';
 import './PromotionsPage.scss';
 
 type Promotion = {
@@ -28,7 +29,7 @@ export function PromotionsPage() {
                 <Card key={promotion.id} className="promotions-page__card">
                   <div className="promotions-page__image">
                     <img
-                      src={promotion.image}
+                      src={getAssetUrl(promotion.image)}
                       alt={promotion.title}
                       loading="lazy"
                       decoding="async"

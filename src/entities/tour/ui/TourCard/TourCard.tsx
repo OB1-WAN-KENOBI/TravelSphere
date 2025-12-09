@@ -7,6 +7,7 @@ import { Tour } from '@/shared/types';
 import { useTranslation } from '@/shared/lib/useTranslation';
 import { usePriceFormatter } from '@/shared/lib/formatPrice';
 import { translateTour } from '@/shared/lib/translateTour';
+import { getAssetUrl } from '@/shared/lib/getAssetUrl';
 import './TourCard.scss';
 
 interface TourCardProps {
@@ -40,7 +41,7 @@ export const TourCard = ({ tour, onBook }: TourCardProps) => {
     >
       <div className="tour-card__image">
         <img
-          src={tour.image}
+          src={getAssetUrl(tour.image)}
           alt={translatedTour.title}
           loading="lazy"
           decoding="async"

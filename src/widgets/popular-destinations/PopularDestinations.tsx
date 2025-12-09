@@ -4,6 +4,7 @@ import { LoadingSpinner, ErrorDisplay, EmptyState } from '@/shared/ui';
 import { usePopularDestinations } from './model/usePopularDestinations';
 import { useTranslation } from '@/shared/lib/useTranslation';
 import { translateDestination } from '@/shared/lib/translateDestination';
+import { getAssetUrl } from '@/shared/lib/getAssetUrl';
 import './PopularDestinations.scss';
 
 export const PopularDestinations = () => {
@@ -62,7 +63,7 @@ export const PopularDestinations = () => {
                 <Card>
                   <div className="popular-destinations__image">
                     <img
-                      src={translated.image}
+                      src={getAssetUrl(translated.image)}
                       alt={translated.name}
                       loading="lazy"
                       decoding="async"

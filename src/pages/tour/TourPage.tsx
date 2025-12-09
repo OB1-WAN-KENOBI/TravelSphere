@@ -15,6 +15,7 @@ import 'swiper/css/pagination';
 import './TourPage.scss';
 import { useTranslation } from '@/shared/lib/useTranslation';
 import { translateTour } from '@/shared/lib/translateTour';
+import { getAssetUrl } from '@/shared/lib/getAssetUrl';
 
 export function TourPage() {
   const { id } = useParams<{ id: string }>();
@@ -75,7 +76,7 @@ export function TourPage() {
             {images.map((img: string, index: number) => (
               <SwiperSlide key={index}>
                 <img
-                  src={img}
+                  src={getAssetUrl(img)}
                   alt={translatedTour.title}
                   loading="lazy"
                   decoding="async"

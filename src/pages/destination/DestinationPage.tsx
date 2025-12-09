@@ -6,6 +6,7 @@ import { LoadingSpinner, ErrorDisplay } from '@/shared/ui';
 import { useTranslation } from '@/shared/lib/useTranslation';
 import { translateDestination } from '@/shared/lib/translateDestination';
 import { translateTour } from '@/shared/lib/translateTour';
+import { getAssetUrl } from '@/shared/lib/getAssetUrl';
 import './DestinationPage.scss';
 
 export function DestinationPage() {
@@ -61,7 +62,7 @@ export function DestinationPage() {
         <div className="destination-page__hero">
           <div className="destination-page__hero-image">
             <img
-              src={translatedDestination.image}
+              src={getAssetUrl(translatedDestination.image)}
               alt={translatedDestination.name}
             />
           </div>

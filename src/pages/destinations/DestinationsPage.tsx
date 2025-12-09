@@ -4,6 +4,7 @@ import { LoadingSpinner, ErrorDisplay, EmptyState } from '@/shared/ui';
 import { Link } from 'react-router-dom';
 import { useTranslation } from '@/shared/lib/useTranslation';
 import { translateDestination } from '@/shared/lib/translateDestination';
+import { getAssetUrl } from '@/shared/lib/getAssetUrl';
 import './DestinationsPage.scss';
 
 export function DestinationsPage() {
@@ -55,7 +56,10 @@ export function DestinationsPage() {
                 >
                   <Card className="destinations-page__card">
                     <div className="destinations-page__image">
-                      <img src={translated.image} alt={translated.name} />
+                      <img
+                        src={getAssetUrl(translated.image)}
+                        alt={translated.name}
+                      />
                     </div>
                     <div className="destinations-page__content">
                       <h2 className="destinations-page__name">
