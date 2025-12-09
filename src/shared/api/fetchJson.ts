@@ -57,11 +57,14 @@ export async function fetchJson<T>(
 ): Promise<T> {
   const { timeout = DEFAULT_TIMEOUT, retries = 0, retryDelay = 1000 } = options;
   const isAbsolute = /^https?:\/\//i.test(path);
+  const base = import.meta?.env?.BASE_URL || '/';
+  const baseUrl =
+    typeof window !== 'undefined'
+      ? new URL(base, window.location.origin).toString()
+      : base;
   const resolvedPath = isAbsolute
     ? path
-    : path.startsWith('/')
-    ? path
-    : `/${path}`;
+    : new URL(path.replace(/^\//, ''), baseUrl).toString();
 
   let lastError: Error;
 
