@@ -57,7 +57,15 @@ export async function fetchJson<T>(
 ): Promise<T> {
   const { timeout = DEFAULT_TIMEOUT, retries = 0, retryDelay = 1000 } = options;
   const isAbsolute = /^https?:\/\//i.test(path);
-  const base = import.meta?.env?.BASE_URL || '/';
+  const deriveBaseFromLocation = () => {
+    if (typeof window === 'undefined') return '/';
+    const [first] = window.location.pathname.split('/').filter(Boolean);
+    return first ? `/${first}/` : '/';
+  };
+  const base =
+    import.meta?.env?.BASE_URL && import.meta.env.BASE_URL !== '/'
+      ? import.meta.env.BASE_URL
+      : deriveBaseFromLocation();
   const baseUrl =
     typeof window !== 'undefined'
       ? new URL(base, window.location.origin).toString()

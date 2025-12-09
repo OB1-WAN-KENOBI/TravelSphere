@@ -10,6 +10,12 @@ import App from './app/App';
 import { theme } from './app/theme';
 import './app/styles/index.scss';
 
+const deriveBaseFromLocation = () => {
+  if (typeof window === 'undefined') return '/';
+  const [first] = window.location.pathname.split('/').filter(Boolean);
+  return first ? `/${first}` : '/';
+};
+
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
@@ -39,7 +45,9 @@ queryClient.getMutationCache().subscribe((event) => {
 
 const rootElement = document.getElementById('root');
 const basename =
-  (import.meta.env.BASE_URL || '/').replace(/\/$/, '') || '/';
+  (import.meta.env.BASE_URL && import.meta.env.BASE_URL !== '/'
+    ? import.meta.env.BASE_URL
+    : deriveBaseFromLocation()) || '/';
 
 if (!rootElement) {
   throw new Error('Root element not found');
