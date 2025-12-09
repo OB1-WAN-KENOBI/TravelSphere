@@ -1,5 +1,5 @@
 import { Suspense } from 'react';
-import { Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, useLocation, Navigate } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import { Header } from '@/widgets/header';
 import { Footer } from '@/widgets/footer';
@@ -47,6 +47,7 @@ function App() {
                 <Route path="/about" element={<AboutPage />} />
                 <Route path="/contacts" element={<ContactsPage />} />
                 <Route path="/profile/*" element={<ProfilePage />} />
+                <Route path="*" element={<Navigate to="/" replace />} />
               </Routes>
             </Suspense>
           </motion.div>

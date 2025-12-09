@@ -38,6 +38,8 @@ queryClient.getMutationCache().subscribe((event) => {
 });
 
 const rootElement = document.getElementById('root');
+const basename =
+  (import.meta.env.BASE_URL || '/').replace(/\/$/, '') || '/';
 
 if (!rootElement) {
   throw new Error('Root element not found');
@@ -52,7 +54,7 @@ createRoot(rootElement).render(
             v7_startTransition: true,
             v7_relativeSplatPath: true,
           }}
-          basename={import.meta.env.BASE_URL}
+          basename={basename}
         >
           <ThemeProvider theme={theme}>
             <CssBaseline />
