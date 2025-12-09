@@ -1,1 +1,0 @@
-import{j as s,k as n}from"./mui-vendor-CJVoYIqO.js";import{a as c}from"./index-CCwr1TxZ.js";const i=({className:t="",color:a="default",...r})=>s.jsx(n,{className:`tag ${t}`.trim(),color:a,...r}),u=t=>t==="en"?"en-US":"ru-RU",l=()=>{const t=c(e=>e.language),a=u(t);return{formatPrice:(e,o)=>`${e.toLocaleString(a)} ${o}`,locale:a,language:t}};export{i as T,l as u};
