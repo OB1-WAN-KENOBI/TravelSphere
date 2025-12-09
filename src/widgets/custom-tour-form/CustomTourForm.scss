@@ -1,0 +1,79 @@
+.custom-tour-form {
+  padding: 60px 0;
+  margin-bottom: 60px;
+  background: var(--neutral-light);
+
+  &__title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  &__subtitle {
+    font-size: 18px;
+    color: #6b7280;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  &__card {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  &__row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+
+  &__input {
+    &--full {
+      grid-column: 1 / -1;
+    }
+  }
+
+  &__button {
+    align-self: center;
+    min-width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-tour-form {
+    padding: 40px 0;
+    margin-bottom: 40px;
+
+    &__title {
+      font-size: 28px;
+      margin-bottom: 12px;
+    }
+
+    &__subtitle {
+      font-size: 16px;
+      margin-bottom: 28px;
+    }
+
+    &__row {
+      grid-template-columns: 1fr;
+    }
+
+    &__card {
+      padding: 20px;
+    }
+  }
+}
+
+.custom-tour-form__success {
+  margin-top: 12px;
+  text-align: center;
+  color: #16a34a;
+  font-weight: 600;
+}

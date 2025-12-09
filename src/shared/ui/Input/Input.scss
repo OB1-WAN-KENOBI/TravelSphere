@@ -1,0 +1,14 @@
+.input {
+  .MuiOutlinedInput-root {
+    background-color: white;
+    border-radius: 10px;
+
+    &:hover fieldset {
+      border-color: var(--primary);
+    }
+
+    &.Mui-focused fieldset {
+      border-color: var(--primary);
+    }
+  }
+}

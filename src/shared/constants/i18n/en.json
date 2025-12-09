@@ -1,0 +1,530 @@
+{
+  "nav": {
+    "tours": "Tours",
+    "destinations": "Destinations",
+    "services": "Services",
+    "promotions": "Promotions",
+    "about": "About",
+    "contacts": "Contacts",
+    "profile": "Account"
+  },
+  "aria": {
+    "logo": "TravelSphere - Home",
+    "nav": "Main navigation",
+    "tours": "Go to tours catalog",
+    "destinations": "Go to destinations catalog",
+    "services": "Go to services",
+    "promotions": "Go to promotions",
+    "about": "About company",
+    "contacts": "Contacts",
+    "profile": "Account",
+    "toggleToEn": "Switch language to English",
+    "toggleToRu": "Switch language to Russian",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "langSwitch": {
+    "ru": "RU",
+    "en": "EN"
+  },
+  "footer": {
+    "rights": "© 2024 TravelSphere. All rights reserved."
+  },
+  "advantages": {
+    "title": "Why travelers choose us",
+    "items": [
+      {
+        "icon": "💰",
+        "title": "Best prices",
+        "description": "We guarantee the most competitive offers on the market"
+      },
+      {
+        "icon": "🛡️",
+        "title": "Reliability",
+        "description": "We work only with trusted partners and hotels"
+      },
+      {
+        "icon": "📞",
+        "title": "Support 24/7",
+        "description": "Our support team is always in touch"
+      },
+      {
+        "icon": "⭐",
+        "title": "Experience",
+        "description": "Over 10 years in the travel industry"
+      }
+    ]
+  },
+  "servicesPage": {
+    "title": "Services",
+    "subtitle": "Full range of services for your comfortable trip",
+    "details": "Learn more",
+    "services": [
+      {
+        "id": "flights",
+        "title": "Flights",
+        "description": "Flight bookings at the best prices",
+        "icon": "✈️"
+      },
+      {
+        "id": "hotels",
+        "title": "Hotels",
+        "description": "Hotel search and bookings worldwide",
+        "icon": "🏨"
+      },
+      {
+        "id": "visas",
+        "title": "Visas",
+        "description": "Visa processing to any country",
+        "icon": "📋"
+      },
+      {
+        "id": "insurance",
+        "title": "Insurance",
+        "description": "Travel insurance for your trips",
+        "icon": "🛡️"
+      },
+      {
+        "id": "transfer",
+        "title": "Transfer",
+        "description": "Airport pickup and return transfers",
+        "icon": "🚗"
+      }
+    ]
+  },
+  "promotionsPage": {
+    "title": "Promotions & special offers",
+    "details": "Details",
+    "validUntil": "Valid until",
+    "promotions": [
+      {
+        "id": "1",
+        "title": "Early booking",
+        "description": "15% off when booking a tour 3 months in advance",
+        "discount": "15%",
+        "validUntil": "2024-12-31",
+        "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800"
+      },
+      {
+        "id": "2",
+        "title": "Family vacation",
+        "description": "Special prices for families with children",
+        "discount": "20%",
+        "validUntil": "2024-12-31",
+        "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800"
+      },
+      {
+        "id": "3",
+        "title": "Last minute",
+        "description": "Hot tours with discounts up to 30%",
+        "discount": "30%",
+        "validUntil": "2024-12-31",
+        "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800"
+      }
+    ]
+  },
+  "aboutPage": {
+    "title": "About us",
+    "historyTitle": "Our story",
+    "history": [
+      "TravelSphere is a leading tour operator with more than 10 years of experience in the travel market. We specialize in crafting unforgettable trips around the world.",
+      "Our mission is to make travel accessible and comfortable for everyone. We work only with trusted partners and hotels, ensuring high service quality."
+    ],
+    "whyTitle": "Why us",
+    "whyList": [
+      "Over 10 years in the travel industry",
+      "Thousands of satisfied clients",
+      "Best prices on the market",
+      "24/7 support",
+      "Wide selection of destinations",
+      "Personalized approach for every client"
+    ],
+    "achievementsTitle": "Our achievements",
+    "stats": {
+      "experience": {
+        "value": "10+",
+        "label": "years of experience"
+      },
+      "destinations": {
+        "value": "50+",
+        "label": "destinations"
+      },
+      "clients": {
+        "value": "10000+",
+        "label": "happy clients"
+      }
+    }
+  },
+  "profilePage": {
+    "title": "Account",
+    "nav": {
+      "profile": "Profile",
+      "orders": "Order history",
+      "documents": "Documents",
+      "support": "Support"
+    }
+  },
+  "ordersHistory": {
+    "title": "Order history",
+    "date": "Date",
+    "status": {
+      "confirmed": "Confirmed",
+      "pending": "Awaiting confirmation"
+    },
+    "details": "Details",
+    "currency": "RUB",
+    "orders": [
+      {
+        "id": "1",
+        "tourTitle": "Holiday in Turkey",
+        "date": "2024-06-01",
+        "price": 85000,
+        "status": "confirmed"
+      },
+      {
+        "id": "2",
+        "tourTitle": "European highlights tour",
+        "date": "2024-07-15",
+        "price": 120000,
+        "status": "pending"
+      }
+    ]
+  },
+  "documents": {
+    "title": "Documents",
+    "download": "Download PDF",
+    "downloadStub": "Downloading document {{id}} (PDF stub)",
+    "items": [
+      {
+        "id": "1",
+        "title": "Voucher for Turkey tour",
+        "date": "2024-05-15",
+        "type": "voucher"
+      },
+      {
+        "id": "2",
+        "title": "Insurance policy",
+        "date": "2024-05-15",
+        "type": "insurance"
+      },
+      {
+        "id": "3",
+        "title": "Contract",
+        "date": "2024-05-10",
+        "type": "contract"
+      }
+    ]
+  },
+  "hero": {
+    "title": "Travel the world with TravelSphere",
+    "subtitle": "Find the perfect tour for an unforgettable trip",
+    "countryPlaceholder": "Where do you want to go?",
+    "dateFromPlaceholder": "Departure date",
+    "dateToPlaceholder": "Return date",
+    "search": "Find tours"
+  },
+  "toursPage": {
+    "loading": "Loading tours...",
+    "errorTitle": "Failed to load tours",
+    "errorMessage": "Could not load the list of tours. Please try refreshing the page.",
+    "title": "Tours catalog",
+    "found": "Tours found",
+    "sortLabel": "Sort",
+    "sortOptions": {
+      "price-asc": "Price: low to high",
+      "price-desc": "Price: high to low",
+      "duration": "By duration"
+    },
+    "emptyTitle": "No tours found",
+    "emptyMessage": "Try changing the filters or reset them.",
+    "emptyAction": "Reset filters"
+  },
+  "tourFilters": {
+    "title": "Filters",
+    "country": "Country",
+    "dateFrom": "Date from",
+    "dateTo": "Date to",
+    "budgetFrom": "Budget from",
+    "budgetTo": "Budget to",
+    "type": "Travel type",
+    "typeAll": "All",
+    "stars": "Hotel stars",
+    "starsAll": "All",
+    "visa": "Visa required",
+    "reset": "Reset filters",
+    "typeLabels": {
+      "пляжный": "Beach",
+      "экскурсионный": "Excursion",
+      "активный": "Active"
+    }
+  },
+  "partners": {
+    "loading": "Loading partners...",
+    "empty": "Partners not found.",
+    "title": "Our partners"
+  },
+  "popularDestinations": {
+    "loading": "Loading destinations...",
+    "empty": "Popular destinations not found.",
+    "title": "Popular destinations"
+  },
+  "hotTours": {
+    "loading": "Loading hot tours...",
+    "empty": "No hot tours found.",
+    "title": "Hot tours"
+  },
+  "customTourForm": {
+    "title": "Custom tours",
+    "subtitle": "We will craft a unique route just for you",
+    "fields": {
+      "name": "Your name",
+      "phone": "Phone",
+      "email": "Email",
+      "destination": "Destination",
+      "dates": "Preferred dates",
+      "budget": "Budget (optional)",
+      "comments": "Additional wishes"
+    },
+    "submit": "Send request",
+    "success": "Your request has been sent! We will contact you shortly.",
+    "validation": {
+      "nameMin": "Name must be at least 2 characters",
+      "phoneMin": "Invalid phone number",
+      "email": "Invalid email",
+      "destination": "Specify destination",
+      "dates": "Specify preferred dates"
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "birthDate": "Date of birth"
+    },
+    "submit": "Save changes",
+    "success": "Profile updated!",
+    "validation": {
+      "nameMin": "Name must be at least 2 characters",
+      "phoneMin": "Invalid phone number",
+      "email": "Invalid email"
+    }
+  },
+  "support": {
+    "title": "Support",
+    "description": "If you have questions or issues, fill the form below and we will help.",
+    "fields": {
+      "subject": "Subject",
+      "message": "Message"
+    },
+    "submit": "Send",
+    "success": "Your request has been sent! We will contact you shortly.",
+    "validation": {
+      "subjectMin": "Subject must be at least 3 characters",
+      "messageMin": "Message must be at least 10 characters"
+    }
+  },
+  "contacts": {
+    "title": "Contacts",
+    "sectionContact": "Contact us",
+    "sectionForm": "Write to us",
+    "phone": "Phone",
+    "phoneValue": "+7 (999) 123-45-67",
+    "email": "Email",
+    "emailValue": "info@travelsphere.ru",
+    "address": "Address",
+    "addressValue": "Moscow, Primerная st., 1",
+    "formSuccess": "Your message has been sent! We will contact you shortly.",
+    "fields": {
+      "name": "Your name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message"
+    },
+    "submit": "Send message",
+    "validation": {
+      "nameMin": "Name must be at least 2 characters",
+      "phoneMin": "Invalid phone number",
+      "email": "Invalid email",
+      "messageMin": "Message must be at least 10 characters"
+    }
+  },
+  "destinationPage": {
+    "loading": "Loading destination...",
+    "errorTitle": "Failed to load destination",
+    "errorMessage": "Could not load destination info. Please try refreshing the page.",
+    "notFoundTitle": "Destination not found",
+    "notFoundMessage": "The requested destination does not exist or was removed.",
+    "popularTours": "Popular tours in",
+    "visaRequired": "Visa required"
+  },
+  "destinationsPage": {
+    "loading": "Loading destinations...",
+    "errorTitle": "Failed to load destinations",
+    "errorMessage": "Could not load the list of destinations. Please try refreshing the page.",
+    "title": "Destinations catalog",
+    "emptyTitle": "No destinations found",
+    "emptyMessage": "No destinations are available at the moment.",
+    "visaRequired": "Visa required",
+    "toursCount": "tours"
+  },
+  "tourPage": {
+    "loading": "Loading tour...",
+    "errorTitle": "Failed to load tour",
+    "errorMessage": "Could not load tour info. Please try refreshing the page.",
+    "notFoundTitle": "Tour not found",
+    "notFoundMessage": "The requested tour does not exist or was removed.",
+    "program": "Itinerary by day",
+    "day": "Day",
+    "included": "Included",
+    "notIncluded": "Not included",
+    "location": "Location",
+    "mapUnavailable": "Map unavailable. Please set VITE_MAPBOX_TOKEN in environment variables.",
+    "reviews": "Reviews",
+    "book": "Book now"
+  },
+  "reviews": {
+    "loading": "Loading reviews...",
+    "title": "Customer reviews"
+  },
+  "emptyState": {
+    "title": "Nothing found"
+  },
+  "errorDisplay": {
+    "title": "An error occurred",
+    "message": "Failed to load data. Please try refreshing the page.",
+    "details": "Error details (development only)",
+    "retry": "Try again",
+    "unknown": "Unknown error"
+  },
+  "errorBoundary": {
+    "title": "Something went wrong",
+    "message": "An unexpected error occurred. Please try refreshing the page.",
+    "details": "Error details",
+    "retry": "Try again"
+  },
+  "tourMeta": {
+    "days": "days",
+    "visaRequired": "Visa required"
+  },
+  "tourCard": {
+    "book": "Book now"
+  },
+  "toursData": {
+    "1": {
+      "title": "Holiday in Turkey",
+      "description": "A perfect getaway on the Mediterranean coast",
+      "country": "Turkey",
+      "destination": "Turkey",
+      "included": ["Flight", "Hotel", "Meals", "Transfer"],
+      "notIncluded": ["Excursions", "Insurance"]
+    },
+    "2": {
+      "title": "European Highlights Tour",
+      "description": "Visit Paris, Rome and Barcelona",
+      "country": "France",
+      "destination": "Europe",
+      "included": ["Flight", "Hotel", "Breakfasts", "Excursions"],
+      "notIncluded": ["Lunches and dinners", "Visa"]
+    },
+    "3": {
+      "title": "Phuket Beaches",
+      "description": "Azure sea, tropical islands and vibrant cuisine",
+      "country": "Thailand",
+      "destination": "Thailand",
+      "included": ["Flight", "Hotel", "Breakfasts", "Transfer"],
+      "notIncluded": ["Excursions", "Insurance"]
+    },
+    "4": {
+      "title": "Dubai: City of the Future",
+      "description": "Modern architecture, shopping and Persian Gulf beaches",
+      "country": "UAE",
+      "destination": "UAE",
+      "included": ["Flight", "Hotel", "Breakfasts", "Transfer"],
+      "notIncluded": ["Excursions", "Insurance"]
+    },
+    "5": {
+      "title": "Classic Italy",
+      "description": "Rome, Florence and Venice in one route",
+      "country": "Italy",
+      "destination": "Italy",
+      "included": ["Flight", "Hotel", "Breakfasts", "Excursions", "Train ride"],
+      "notIncluded": ["Lunches and dinners", "Visa"]
+    },
+    "6": {
+      "title": "Tokyo and Kyoto",
+      "description": "Blend of futuristic Tokyo and traditional Kyoto",
+      "country": "Japan",
+      "destination": "Japan",
+      "included": ["Flight", "Hotel", "Breakfasts", "JR Pass", "Excursions"],
+      "notIncluded": ["Lunches and dinners", "Visa", "Insurance"]
+    },
+    "7": {
+      "title": "Maldives Island Escape",
+      "description": "Turquoise waters, white sand and an overwater villa",
+      "country": "Maldives",
+      "destination": "Maldives",
+      "included": ["Flight", "Hotel", "Meals", "Speedboat transfer"],
+      "notIncluded": ["Excursions", "Insurance"]
+    },
+    "8": {
+      "title": "Iceland: Fire and Ice",
+      "description": "Waterfalls, geysers and the northern lights",
+      "country": "Iceland",
+      "destination": "Iceland",
+      "included": ["Flight", "Hotel", "Breakfasts", "Bus tour"],
+      "notIncluded": ["Dinners", "Visa", "Insurance"]
+    }
+  },
+  "destinationsData": {
+    "1": {
+      "name": "Turkey",
+      "description": "Mediterranean beaches and rich history",
+      "country": "Turkey",
+      "visaRequired": false
+    },
+    "2": {
+      "name": "Europe",
+      "description": "Top European cities: Paris, Rome, Barcelona",
+      "country": "France",
+      "visaRequired": true
+    },
+    "3": {
+      "name": "Thailand",
+      "description": "Tropical islands, cuisine and temples",
+      "country": "Thailand",
+      "visaRequired": false
+    },
+    "4": {
+      "name": "UAE",
+      "description": "Modern megacities and Persian Gulf beaches",
+      "country": "UAE",
+      "visaRequired": false
+    },
+    "5": {
+      "name": "Italy",
+      "description": "Rome, Florence and Venice — European classics",
+      "country": "Italy",
+      "visaRequired": true
+    },
+    "6": {
+      "name": "Japan",
+      "description": "Contrast of futuristic Tokyo and traditional Kyoto",
+      "country": "Japan",
+      "visaRequired": true
+    },
+    "7": {
+      "name": "Maldives",
+      "description": "Turquoise lagoons and white sand",
+      "country": "Maldives",
+      "visaRequired": false
+    },
+    "8": {
+      "name": "Iceland",
+      "description": "Geysers, waterfalls and northern lights",
+      "country": "Iceland",
+      "visaRequired": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "name": "Partner 1",
+    "logo": "https://via.placeholder.com/150",
+    "url": "https://example.com"
+  },
+  {
+    "id": "2",
+    "name": "Partner 2",
+    "logo": "https://via.placeholder.com/150",
+    "url": "https://example.com"
+  },
+  {
+    "id": "3",
+    "name": "Partner 3",
+    "logo": "https://via.placeholder.com/150",
+    "url": "https://example.com"
+  }
+]

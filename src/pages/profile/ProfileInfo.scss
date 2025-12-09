@@ -1,0 +1,18 @@
+.profile-info {
+  &__title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 24px;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__success {
+    color: #16a34a;
+    font-weight: 600;
+  }
+}

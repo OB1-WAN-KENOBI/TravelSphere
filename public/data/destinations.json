@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "name": "Турция",
+    "slug": "turkey",
+    "description": "Страна на стыке Европы и Азии с богатой историей и прекрасными пляжами",
+    "image": "/images/turkey.jpg",
+    "country": "Турция",
+    "visaRequired": false,
+    "popularTours": ["1"]
+  },
+  {
+    "id": "2",
+    "name": "Франция",
+    "slug": "france",
+    "description": "Романтическая страна с богатой культурой и историей",
+    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800",
+    "country": "Франция",
+    "visaRequired": true,
+    "popularTours": ["2"]
+  },
+  {
+    "id": "3",
+    "name": "Таиланд",
+    "slug": "thailand",
+    "description": "Тропические пляжи, буддийские храмы и яркие рынки",
+    "image": "/images/tai.jpg",
+    "country": "Таиланд",
+    "visaRequired": false,
+    "popularTours": ["3"]
+  },
+  {
+    "id": "4",
+    "name": "ОАЭ",
+    "slug": "uae",
+    "description": "Современные мегаполисы, пустыня и комфортный пляжный отдых",
+    "image": "/images/uae.jpg",
+    "country": "ОАЭ",
+    "visaRequired": false,
+    "popularTours": ["4"]
+  },
+  {
+    "id": "5",
+    "name": "Италия",
+    "slug": "italy",
+    "description": "Античность Рима, искусство Флоренции и романтика Венеции",
+    "image": "/images/italy.jpg",
+    "country": "Италия",
+    "visaRequired": true,
+    "popularTours": ["5"]
+  },
+  {
+    "id": "6",
+    "name": "Япония",
+    "slug": "japan",
+    "description": "Контраст небоскрёбов Токио и тишины храмов Киото",
+    "image": "/images/japan.jpg",
+    "country": "Япония",
+    "visaRequired": true,
+    "popularTours": ["6"]
+  },
+  {
+    "id": "7",
+    "name": "Мальдивы",
+    "slug": "maldives",
+    "description": "Бирюзовая лагуна, коралловые рифы и уединённые виллы",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format",
+    "country": "Мальдивы",
+    "visaRequired": false,
+    "popularTours": ["7"]
+  },
+  {
+    "id": "8",
+    "name": "Исландия",
+    "slug": "iceland",
+    "description": "Дикая природа, гейзеры, ледники и охота за северным сиянием",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800",
+    "country": "Исландия",
+    "visaRequired": true,
+    "popularTours": ["8"]
+  }
+]

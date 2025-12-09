@@ -1,0 +1,1 @@
+export { useHotTours } from './useHotTours';

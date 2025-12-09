@@ -1,0 +1,1 @@
+export { usePartnersWidget } from './usePartners';

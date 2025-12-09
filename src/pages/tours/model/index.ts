@@ -1,0 +1,1 @@
+export { useToursPage } from './useToursPage';

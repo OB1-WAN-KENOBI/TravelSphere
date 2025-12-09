@@ -1,0 +1,28 @@
+.support {
+  &__title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 24px;
+  }
+
+  &__card {
+    padding: 24px;
+  }
+
+  &__description {
+    color: #6b7280;
+    margin-bottom: 24px;
+    line-height: 1.6;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__success {
+    color: #16a34a;
+    font-weight: 600;
+  }
+}
